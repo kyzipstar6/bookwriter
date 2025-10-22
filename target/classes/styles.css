@@ -1,0 +1,30 @@
+/* Basic page look */
+.page {
+    -fx-padding: 20;
+    -fx-background-color: linear-gradient(#fffefa, #f7f1e6);
+    -fx-border-color: #ccc;
+    -fx-border-width: 1;
+    -fx-effect: dropshadow(two-pass-box, rgba(0,0,0,0.15), 6, 0.0, 0, 2);
+}
+
+.page-textarea {
+    -fx-background-color: transparent;
+    -fx-control-inner-background: transparent;
+}
+
+/* Styles/themes */
+.root.old .page {
+    -fx-background-color: linear-gradient(#fbf5e6, #efe3ca);
+    -fx-border-color: #b89a6a;
+    -fx-font-family: "Garamond", Serif;
+}
+
+.root.contemporary .page {
+    -fx-background-color: linear-gradient(#ffffff, #f8f8f8);
+    -fx-border-color: #ddd;
+}
+
+.root.future .page {
+    -fx-background-color: linear-gradient(#eaf6ff, #e0f0ff);
+    -fx-border-color: #9fc9ff;
+}
