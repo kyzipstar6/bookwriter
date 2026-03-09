@@ -302,7 +302,7 @@ public class BookWriterApp extends Application {
             if (newT == oldStyle) book.setStyle("old");
             else if (newT == futStyle) book.setStyle("future");
             else book.setStyle("contemporary");
-            applyBookToUI();
+            
         });
 
         Region spacer = new Region();
